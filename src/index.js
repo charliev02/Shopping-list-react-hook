@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import './App.css';
+import Header from './components/Header'
+// import Carrito from './components/Carrito'
+// import ReactHookForm from './components/ReactHookForm'
+import Practica1 from './components/Practica1'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header>  </Header>
+    {/* <Carrito></Carrito> */}
+    {/* <ReactHookForm /> */}
+    <Practica1 />
   </React.StrictMode>,
   document.getElementById('root')
 );

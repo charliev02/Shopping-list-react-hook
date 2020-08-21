@@ -1,3 +1,35 @@
+body{
+  
+}
+.circle-button{
+  font-size: 57px;
+  color: #FF5722;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.inputs{
+  background-color: #eceff1;
+  border: 1px solid #eceff1;
+  padding: 10px 15px;
+}
+.azul-text{
+  color: #61dafb;  
+}
+
+.azul-bg{
+  background-color: #61dafb;  
+}
+
+
+.negro-text{
+  color: #61DAFB;  
+}
+
+.negro-bg{
+  background-color: #17333B;  
+}
+
 .App {
   text-align: center;
 }
